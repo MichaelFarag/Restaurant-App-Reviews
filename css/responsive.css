@@ -1,21 +1,29 @@
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    /* Styles */
+    #breadcrumb{
+        width: calc(100% - 80px);
+    }
     
     #restaurants-list li{
       width: 80%
     }
-    /* #maincontent {
-      
-        position: fixed;
-        top: 130px;
-    } */
-    
+   
     .inside header{
         position: relative;
         background: #eeeeee;
     }
+    .filter-options {
+       
+        height: 100%;
+       
+        align-items: center;
+        display: block;
+        padding-top: 15px;
+        
+    }
+    
+    
     .inside #map-container{
         height: inherit;
         position: relative;
@@ -33,6 +41,11 @@
     #reviews-container {
         padding: 30px;
         width: inherit;
+    }
+
+    .inside #footer {
+       
+        width: 100%;
     }
     /* #maincontent{
         display: grid;
@@ -71,6 +84,13 @@
     #restaurants-list li{
         width: 40%
       }
+      .inside #map-container {
+        
+        height: 100%;}
+      .inside #footer {
+       
+        width: 95%;
+    }
     }
   
     /* Large screens ----------- */
