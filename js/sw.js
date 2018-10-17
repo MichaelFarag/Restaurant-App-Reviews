@@ -1,6 +1,6 @@
 var CACHE_NAME = 'restaurant-app-reviews-cache-v1';
 var urlsToCache = [
-  
+  '/',
   '/index.html',
   '/restaurant.html',
   '/data/restaurants.json',
